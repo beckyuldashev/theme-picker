@@ -116,8 +116,35 @@ input[type='radio']:hover {
 }
 
 
+.pink {
+  --clr-body-bg: hsl(310 50% 90%);
+  --clr-card-bg: hsl(310 50% 100%);
+  --clr-text: hsl(310 50% 15%);
+  --clr-heading: hsl(310 50% 25%);
+}
 
-.pink,
+.blue {
+  --clr-body-bg: hsl(209 50% 90%);
+  --clr-card-bg: hsl(209 50% 100%);
+  --clr-text: hsl(209 50% 15%);
+  --clr-heading: hsl(209 50% 25%);
+}
+
+.green {
+  --clr-body-bg: hsl(109 50% 90%);
+  --clr-card-bg: hsl(109 50% 100%);
+  --clr-text: hsl(109 50% 15%);
+  --clr-heading: hsl(109 50% 25%);
+}
+
+.dark {
+  --clr-body-bg: hsl(209 50% 10%);
+  --clr-card-bg: hsl(209 50% 5%);
+  --clr-text: hsl(209 50% 90%);
+  --clr-heading: hsl(209 50% 80%);
+}
+
+
 :root:has(#pink:checked) {
   --clr-body-bg: hsl(310 50% 90%);
   --clr-card-bg: hsl(310 50% 100%);
@@ -125,7 +152,6 @@ input[type='radio']:hover {
   --clr-heading: hsl(310 50% 25%);
 }
 
-.blue,
 :root:has(#blue:checked) {
   --clr-body-bg: hsl(209 50% 90%);
   --clr-card-bg: hsl(209 50% 100%);
@@ -133,7 +159,6 @@ input[type='radio']:hover {
   --clr-heading: hsl(209 50% 25%);
 }
 
-.green,
 :root:has(#green:checked) {
   --clr-body-bg: hsl(109 50% 90%);
   --clr-card-bg: hsl(109 50% 100%);
@@ -141,7 +166,6 @@ input[type='radio']:hover {
   --clr-heading: hsl(109 50% 25%);
 }
 
-.dark,
 :root:has(#dark:checked) {
   --clr-body-bg: hsl(209 50% 10%);
   --clr-card-bg: hsl(209 50% 5%);
@@ -149,7 +173,6 @@ input[type='radio']:hover {
   --clr-heading: hsl(209 50% 80%);
 }
 
-.pink,
 :root:has(#light:checked) {
   --clr-body-bg: hsl(0 0% 90%);
   --clr-card-bg: hsl(0 0% 100%);
